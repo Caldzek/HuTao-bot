@@ -1,8 +1,6 @@
 const Discord = require("discord.js")
 require("dotenv").config()
 
-const TOKEN = "OTQzMjM0MDAzNTI2Mzg1NzI0.YgwFHg.p5fxi1xkn_IEbdueX_mG14JtjSM"
-
 const client = new Discord.Client({
     intents: [
         "GUILDS",
